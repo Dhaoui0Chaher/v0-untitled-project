@@ -3,508 +3,408 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>أثر الضوء | حيث كل قصة تضيء طريقاً في الحياة.</title>
+    <title>أثر الضوء | رحلة قصصية بتطبيقات واقعية للأطفال والمربين</title>
     <meta name="description" content="قصص تنبض بالحياة، تجمع بين المتعة والتعلم والتطبيق العملي، لنترك أثراً إيجابياً في حياة أطفالنا" />
-    <meta name="keywords" content="قصص أطفال، قصص تعليمية، أدوات تفاعلية، تربية أطفال، حكايات عربية" />
-    <meta name="author" content="شاهر الضاوي" />
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-    <meta property="og:title" content="أثر الضوء | حيث كل قصة تضيء طريقاً في الحياة" />
-    <meta property="og:description" content="قصص تنبض بالحياة، تجمع بين المتعة والتعلم والتطبيق العملي، لنترك أثراً إيجابياً في حياة أطفالنا" />
-    <meta property="og:image" content="https://atharaldaw.com/logo.png" />
-    <meta property="og:url" content="https://atharaldaw.com/" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="أثر الضوء" />
-    <meta name="twitter:description" content="قصص تنبض بالحياة، تجمع بين المتعة والتعلم والتطبيق العملي" />
-    <meta name="twitter:image" content="https://atharaldaw.com/logo.png" />
-    <link rel="canonical" href="https://atharaldaw.com/" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      * { @apply border-gray-200; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
       html { direction: rtl; }
-      body { @apply bg-white text-gray-900; font-family: 'Tajawal', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
-      /* Enhanced color system and design tokens */
-      .bg-light-purple { background-color: #f8f7ff; }
-      .bg-royal-blue { background-color: #4f46e5; }
-      .bg-dodger-blue { background-color: #3b82f6; }
-      .bg-azure-11 { color: #0c3a7e; }
-      .text-azure-11 { color: #0c3a7e; }
-      .text-azure-27 { color: #475569; }
-      .text-ecstasy { color: #ff6b35; }
-      .bg-ecstasy { background-color: #ff6b35; }
-      .bg-gradient-hero { background: linear-gradient(270deg, rgba(79, 70, 229, 0.85) 0%, rgba(79, 70, 229, 0.65) 100%); }
-      .bg-gradient-section { background: linear-gradient(135deg, rgba(79, 70, 229, 0.03) 0%, rgba(56, 189, 248, 0.03) 100%); }
-      .bg-gradient-interactive { background: linear-gradient(90deg, #4F46E5 0%, #38BDF8 100%); }
-      .bg-gradient-tools { background: linear-gradient(90deg, rgba(124, 77, 255, 0.03) 0%, rgba(255, 213, 79, 0.03) 100%); }
-      
-      /* Smooth transitions for interactive elements */
-      a, button, .transition-smooth {
-        transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
-      }
-      
-      /* Enhanced hover effects */
-      .hover-lift:hover {
-        transform: translateY(-4px);
-        transition: transform 200ms ease-out;
-      }
-      
-      /* FAQ accordion animation */
-      .faq-content {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 300ms ease-out, padding 300ms ease-out;
-      }
-      .faq-content.active {
-        max-height: 500px;
-        padding: 1.5rem;
-      }
-      .faq-icon {
-        transition: transform 200ms ease-out;
-      }
-      .faq-icon.active {
-        transform: rotate(180deg);
-      }
+      body { font-family: 'Tajawal', -apple-system, sans-serif; }
+      .bg-gradient-hero { background: linear-gradient(270deg, rgba(67, 56, 202, 0.9) 0%, rgba(79, 70, 229, 0.8) 100%); }
+      a, button { transition: all 200ms ease; }
+      .hover-lift:hover { transform: translateY(-2px); }
+      .faq-content { max-height: 0; overflow: hidden; transition: max-height 300ms ease; }
+      .faq-content.active { max-height: 500px; }
+      .faq-icon { transition: transform 200ms ease; }
+      .faq-icon.active { transform: rotate(180deg); }
     </style>
-    <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"Organization","name":"أثر الضوء","url":"https://atharaldaw.com","logo":"https://atharaldaw.com/logo.png","description":"قصص تنبض بالحياة، تجمع بين المتعة والتعلم والتطبيق العملي","contactPoint":{"@type":"ContactPoint","contactType":"Customer Service","email":"chaher.dhawi@gmail.com"}}
-    </script>
-    <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"WebSite","name":"أثر الضوء","url":"https://atharaldaw.com","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://atharaldaw.com/search?q={search_term_string}"},"query_input":"required name=search_term_string"}}
-    </script>
   </head>
-  <body>
+  <body class="bg-white text-gray-900">
     <!-- Header -->
-    <header class="bg-white shadow-sm sticky top-0 z-50 backdrop-blur-sm bg-white/95">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between items-center h-16 md:h-20">
-          <nav class="hidden md:flex items-center gap-6">
-            <a href="/" class="text-gray-700 hover:text-royal-blue px-4 py-2 rounded-lg text-base font-medium transition-smooth hover:bg-indigo-50">الرئيسية</a>
-            <a href="stories/index.html" class="text-gray-700 hover:text-royal-blue px-4 py-2 rounded-lg text-base font-medium transition-smooth hover:bg-indigo-50">القصص</a>
+        <div class="flex justify-between items-center h-20">
+          <nav class="hidden md:flex items-center gap-8">
+            <a href="/" class="text-gray-700 hover:text-indigo-600 px-3 py-2 font-medium">الرئيسية</a>
+            <a href="stories/index.html" class="text-gray-700 hover:text-indigo-600 px-3 py-2 font-medium">القصص</a>
           </nav>
-          <div class="flex items-center">
-            <a href="/" class="flex items-center transition-smooth hover:scale-105">
-              <img src="https://api.builder.io/api/v1/image/assets/TEMP/f6e16051a3c01552f2693c06b8637bef55ccd24d?width=136" alt="أثر الضوء" class="h-14 w-14 md:h-16 md:w-16" />
+          <div>
+            <a href="/">
+              <img src="https://api.builder.io/api/v1/image/assets/TEMP/f6e16051a3c01552f2693c06b8637bef55ccd24d?width=136" alt="أثر الضوء" class="h-16 w-16" />
             </a>
           </div>
-          <nav class="hidden md:flex items-center gap-6">
-            <a href="about.html" class="text-gray-700 hover:text-royal-blue px-4 py-2 rounded-lg text-base font-medium transition-smooth hover:bg-indigo-50">من نحن</a>
-            <a href="contact.html" class="text-gray-700 hover:text-royal-blue px-4 py-2 rounded-lg text-base font-medium transition-smooth hover:bg-indigo-50">تواصل معنا</a>
+          <nav class="hidden md:flex items-center gap-8">
+            <a href="about.html" class="text-gray-700 hover:text-indigo-600 px-3 py-2 font-medium">من نحن</a>
+            <a href="contact.html" class="text-gray-700 hover:text-indigo-600 px-3 py-2 font-medium">تواصل معنا</a>
           </nav>
-          <div class="md:hidden">
-            <button class="text-gray-700 hover:text-royal-blue p-2 rounded-lg hover:bg-indigo-50 transition-smooth">
-              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
-            </button>
-          </div>
+          <button class="md:hidden">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
         </div>
       </div>
     </header>
 
-    <main>
-      <!-- Hero Section -->
-      <section class="relative h-96 md:h-[650px] flex items-center justify-center overflow-hidden">
-        <div class="absolute inset-0">
-          <img src="https://api.builder.io/api/v1/image/assets/TEMP/700078412728a0aeddf562de8c5ba32bddd9b0aa?width=3840" alt="عالم سحري مع الكتب والنجوم" class="w-full h-full object-cover" />
-          <div class="absolute inset-0 bg-gradient-hero"></div>
-        </div>
-        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-          <div class="max-w-4xl mr-auto text-right">
-            <div class="space-y-8">
-              <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight">
-                رحلة قصصية بتطبيقات واقعية<br />للأطفال والمربين
-              </h1>
-              <p class="text-xl md:text-2xl text-white/95 max-w-2xl mr-auto leading-relaxed">قصص تنبض بالحياة، تجمع بين المتعة والتعلم والتطبيق العملي</p>
-              <div class="flex flex-col sm:flex-row gap-4 pt-6 justify-center sm:justify-start flex-row-reverse items-center">
-                <a href="stories/1.html" class="bg-white text-royal-blue px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-50 hover:shadow-lg transition-smooth hover-lift text-center shadow-md">استكشف القصص</a>
-                <a href="about.html" class="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-royal-blue transition-smooth hover-lift text-center backdrop-blur-sm">تعرف علينا</a>
-              </div>
-            </div>
+    <!-- Hero Section -->
+    <section class="relative h-[600px] flex items-center overflow-hidden">
+      <div class="absolute inset-0">
+        <img src="https://api.builder.io/api/v1/image/assets/TEMP/700078412728a0aeddf562de8c5ba32bddd9b0aa?width=3840" alt="عالم سحري مع الكتب والنجوم" class="w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-gradient-hero"></div>
+      </div>
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div class="max-w-3xl mr-auto text-right">
+          <h1 class="text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">رحلة قصصية بتطبيقات واقعية<br/>للأطفال والمربين</h1>
+          <p class="text-2xl text-white/95 mb-10 leading-relaxed">قصص تنبض بالحياة، تجمع بين المتعة والتعلم والتطبيق العملي</p>
+          <div class="flex gap-4 flex-row-reverse">
+            <a href="stories/1.html" class="bg-white text-indigo-600 px-8 py-4 rounded-xl font-bold text-lg hover:shadow-xl hover-lift">استكشف القصص</a>
+            <a href="about.html" class="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-indigo-600 hover-lift">تعرف علينا</a>
           </div>
         </div>
-        <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent"></div>
-      </section>
+      </div>
+    </section>
 
-      <!-- About Section -->
-      <section class="py-20 md:py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center max-w-4xl mx-auto mb-16 md:mb-20">
-            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-azure-11 mb-6 leading-tight">نبذة عن المجموعة</h2>
-            <p class="text-lg md:text-xl text-azure-27 leading-relaxed">لا تقتصر مجموعتنا القصصية على السرد فقط، بل تتحوّل كل قصة إلى دليل عملي وأدوات حياتية ملموسة ترافق الطفل وأسرته في رحلتهم اليومية.</p>
+    <!-- About Section -->
+    <section class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">نبذة عن المجموعة</h2>
+          <p class="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">لا تقتصر مجموعتنا القصصية على السرد فقط، بل تتحوّل كل قصة إلى دليل عملي وأدوات حياتية ملموسة ترافق الطفل وأسرته في رحلتهم اليومية.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-2xl shadow-lg p-8 text-center hover-lift">
+            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">تعزيز الإبداع والخيال</h3>
+            <p class="text-gray-600 leading-relaxed">نفتح آفاقًا جديدة للخيال والإبداع من خلال عوالم قصصية ثرية تدعو الطفل للتفكير خارج الصندوق وابتكار حلول جديدة.</p>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            <!-- Feature 1 -->
-            <div class="bg-white rounded-2xl shadow-md hover:shadow-xl p-8 text-right transition-smooth hover-lift border border-gray-100">
-              <div class="w-16 h-16 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <svg class="w-8 h-8 text-dodger-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
-              </div>
-              <h3 class="text-xl md:text-2xl font-bold text-center text-azure-11 mb-4 leading-tight">تعزيز الإبداع والخيال</h3>
-              <p class="text-azure-27 leading-relaxed text-right text-base md:text-lg">نفتح آفاقًا جديدة للخيال والإبداع من خلال عوالم قصصية ثرية تدعو الطفل للتفكير خارج الصندوق.</p>
+          <div class="bg-white rounded-2xl shadow-lg p-8 text-center hover-lift">
+            <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
             </div>
-            <!-- Feature 2 -->
-            <div class="bg-white rounded-2xl shadow-md hover:shadow-xl p-8 text-right transition-smooth hover-lift border border-gray-100">
-              <div class="w-16 h-16 bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <svg class="w-8 h-8 text-ecstasy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
-              </div>
-              <h3 class="text-xl md:text-2xl font-bold text-center text-azure-11 mb-4 leading-tight">بناء القيم والأخلاق</h3>
-              <p class="text-azure-27 leading-relaxed text-right text-base md:text-lg">نغرس القيم الإيجابية والأخلاق النبيلة من خلال قصص ملهمة تقدم نماذج سلوكية إيجابية.</p>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">بناء القيم والأخلاق</h3>
+            <p class="text-gray-600 leading-relaxed">نغرس القيم الإيجابية والأخلاق النبيلة من خلال قصص ملهمة تقدم نماذج سلوكية إيجابية يمكن للأطفال الاقتداء بها.</p>
+          </div>
+          <div class="bg-white rounded-2xl shadow-lg p-8 text-center hover-lift">
+            <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
             </div>
-            <!-- Feature 3 -->
-            <div class="bg-white rounded-2xl shadow-md hover:shadow-xl p-8 text-right transition-smooth hover-lift border border-gray-100">
-              <div class="w-16 h-16 bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <svg class="w-8 h-8 text-royal-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              </div>
-              <h3 class="text-xl md:text-2xl font-bold text-center text-azure-11 mb-4 leading-tight">تنمية التفكير النقدي</h3>
-              <p class="text-azure-27 leading-relaxed text-right text-base md:text-lg">نساعد الأطفال على بناء مهارات التفكير النقدي من خلال الأسئلة والمواقف التي تتطلب التحليل.</p>
-            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">تنمية التفكير النقدي</h3>
+            <p class="text-gray-600 leading-relaxed">نساعد الأطفال على بناء مهارات التفكير النقدي من خلال الأسئلة والمواقف التي تتطلب التحليل واتخاذ القرار.</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Vision Section -->
-      <section class="py-20 md:py-24 bg-gradient-tools">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <div class="lg:order-1 relative">
-              <div class="relative rounded-3xl overflow-hidden">
-                <img src="https://api.builder.io/api/v1/image/assets/TEMP/8b8b636ef4c32ac843951101dd9aa7809f19f00f?width=1456" alt="طفل يقرأ في الطبيعة" class="w-full h-auto" />
+    <!-- Vision Section -->
+    <section class="py-24 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <div class="text-right">
+            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">رؤيتنا</h2>
+            <div class="w-20 h-1 bg-yellow-400 rounded-full mb-8 ml-auto"></div>
+            <div class="space-y-5">
+              <div class="flex items-start gap-4 text-right">
+                <div class="flex-shrink-0 w-7 h-7 bg-indigo-600 rounded-full flex items-center justify-center mt-1">
+                  <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <p class="text-lg text-gray-800 flex-1">تعلم تفاعلي يدمج بين القيم والتطبيق العملي في الحياة اليومية</p>
               </div>
-            </div>
-            <div class="text-right lg:order-2">
-              <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-azure-11 mb-6 leading-tight">رؤيتنا</h2>
-              <div class="w-20 h-1.5 bg-gradient-to-l from-yellow-400 to-amber-500 rounded-full mb-10 ml-auto"></div>
-              <div class="space-y-6">
-                <div class="flex items-start gap-5 text-right">
-                  <div class="flex-shrink-0 w-7 h-7 bg-gradient-to-br from-purple-600 to-indigo-600 rounded-full flex items-center justify-center mt-1 shadow-md">
-                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                  </div>
-                  <p class="text-azure-11 text-lg md:text-xl leading-relaxed flex-1">تعلم تفاعلي يدمج بين القيم والتطبيق العملي في الحياة اليومية</p>
+              <div class="flex items-start gap-4 text-right">
+                <div class="flex-shrink-0 w-7 h-7 bg-indigo-600 rounded-full flex items-center justify-center mt-1">
+                  <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
                 </div>
-                <div class="flex items-start gap-5 text-right">
-                  <div class="flex-shrink-0 w-7 h-7 bg-gradient-to-br from-purple-600 to-indigo-600 rounded-full flex items-center justify-center mt-1 shadow-md">
-                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                  </div>
-                  <p class="text-azure-11 text-lg md:text-xl leading-relaxed flex-1">أدوات حقيقية تدعم التفكير النقدي وتنمي المهارات الحياتية</p>
+                <p class="text-lg text-gray-800 flex-1">أدوات حقيقية تدعم التفكير النقدي وتنمي المهارات الحياتية</p>
+              </div>
+              <div class="flex items-start gap-4 text-right">
+                <div class="flex-shrink-0 w-7 h-7 bg-indigo-600 rounded-full flex items-center justify-center mt-1">
+                  <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
                 </div>
-                <div class="flex items-start gap-5 text-right">
-                  <div class="flex-shrink-0 w-7 h-7 bg-gradient-to-br from-purple-600 to-indigo-600 rounded-full flex items-center justify-center mt-1 shadow-md">
-                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                  </div>
-                  <p class="text-azure-11 text-lg md:text-xl leading-relaxed flex-1">أنشطة تعزز الحوار الأسري وتقوي العلاقات بين الأطفال والمربين</p>
+                <p class="text-lg text-gray-800 flex-1">أنشطة تعزز الحوار الأسري وتقوي العلاقات بين الأطفال والمربين</p>
+              </div>
+              <div class="flex items-start gap-4 text-right">
+                <div class="flex-shrink-0 w-7 h-7 bg-indigo-600 rounded-full flex items-center justify-center mt-1">
+                  <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
                 </div>
-                <div class="flex items-start gap-5 text-right">
-                  <div class="flex-shrink-0 w-7 h-7 bg-gradient-to-br from-purple-600 to-indigo-600 rounded-full flex items-center justify-center mt-1 shadow-md">
-                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                  </div>
-                  <p class="text-azure-11 text-lg md:text-xl leading-relaxed flex-1">تحويل المفاهيم المجردة إلى تجارب ملموسة تترك أثراً دائماً</p>
-                </div>
+                <p class="text-lg text-gray-800 flex-1">تحويل المفاهيم المجردة إلى تجارب ملموسة تترك أثراً دائماً</p>
               </div>
             </div>
           </div>
+          <div class="relative">
+            <img src="https://api.builder.io/api/v1/image/assets/TEMP/8b8b636ef4c32ac843951101dd9aa7809f19f00f?width=1456" alt="طفل يقرأ في الطبيعة" class="w-full rounded-3xl shadow-2xl" />
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Featured Story Section -->
-      <section class="py-20 md:py-24 bg-gradient-section">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center max-w-4xl mx-auto mb-16">
-            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-azure-11 mb-6 leading-tight">القصة المميزة هذا الشهر</h2>
-            <p class="text-lg md:text-xl text-azure-27 leading-relaxed">تعرف على إحدى قصصنا المميزة التي تحمل قيماً تربوية وأفكاراً ملهمة</p>
-          </div>
-          <div class="bg-white rounded-3xl shadow-xl overflow-hidden max-w-4xl mx-auto hover-lift transition-smooth border border-gray-100">
-            <img src="/images/story/s1.jpg" alt="السر العظيم: رحلة يونس نحو النجاح" class="w-full h-64 md:h-80 object-cover" />
-            <div class="p-8 md:p-10">
-              <div class="text-right space-y-6">
-                <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-azure-11 leading-tight">السر العظيم: رحلة يونس نحو النجاح</h3>
-                <p class="text-azure-27 leading-relaxed text-lg md:text-xl">رحلة يونس مع العم سالم في البحث عن معنى النجاح الحقيقي، وكيف يحقق التوازن بين الجسد والعقل والروح. قصة تعلم الأطفال قيمة التوازن في الحياة.</p>
-                <div class="flex flex-wrap gap-3 justify-end flex-row-reverse items-center">
-                  <span class="px-4 py-2 rounded-full text-sm font-bold bg-blue-50 text-dodger-blue border border-blue-100">النمو الشخصي</span>
-                  <span class="px-4 py-2 rounded-full text-sm font-bold bg-orange-50 text-ecstasy border border-orange-100">التفكير النقدي</span>
-                  <span class="px-4 py-2 rounded-full text-sm font-bold bg-indigo-50 text-royal-blue border border-indigo-100">التوازن</span>
-                </div>
-                <a href="stories/1.html" class="inline-block bg-royal-blue text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-indigo-700 hover:shadow-lg transition-smooth hover-lift">اقرأ المزيد</a>
-              </div>
+    <!-- Featured Story -->
+    <section class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">القصة المميزة هذا الشهر</h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">تعرف على إحدى قصصنا المميزة التي تحمل قيماً تربوية وأفكاراً ملهمة</p>
+        </div>
+        <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden hover-lift">
+          <img src="/images/story/s1.jpg" alt="السر العظيم: رحلة يونس نحو النجاح" class="w-full h-80 object-cover" />
+          <div class="p-10 text-right">
+            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">السر العظيم: رحلة يونس نحو النجاح</h3>
+            <p class="text-xl text-gray-600 leading-relaxed mb-6">رحلة يونس مع العم سالم في البحث عن معنى النجاح الحقيقي، وكيف يحقق التوازن بين الجسد والعقل والروح. قصة تعلم الأطفال قيمة التوازن في الحياة وأهمية طرح الأسئلة الصحيحة.</p>
+            <div class="flex gap-3 mb-6 flex-row-reverse">
+              <span class="px-4 py-2 rounded-full bg-blue-50 text-blue-600 border border-blue-200 font-medium">النمو الشخصي</span>
+              <span class="px-4 py-2 rounded-full bg-orange-50 text-orange-600 border border-orange-200 font-medium">التفكير النقدي</span>
+              <span class="px-4 py-2 rounded-full bg-indigo-50 text-indigo-600 border border-indigo-200 font-medium">التوازن</span>
+            </div>
+            <div class="flex gap-4 flex-row-reverse">
+              <a href="https://amzn.eu/d/dT6oHPx" target="_blank" class="bg-orange-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-orange-600 hover-lift">اشترِ من أمازون</a>
+              <a href="stories/1.html" class="bg-indigo-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-indigo-700 hover-lift">أكثر تفاصيل</a>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Interactive Tools Section -->
-      <section class="py-20 md:py-24 bg-white" id="tools">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center max-w-5xl mx-auto mb-16 md:mb-20">
-            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-azure-11 mb-6 leading-tight">أدوات تفاعلية تحوّل القراءة إلى تجربة حياتية</h2>
-            <p class="text-lg md:text-xl text-azure-27 leading-relaxed">لا تقتصر مجموعتنا القصصية على السرد فقط، بل تتحوّل كل قصة إلى تجربة متكاملة</p>
-          </div>
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-            <!-- Tools 1 -->
-            <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover-lift transition-smooth border border-gray-100">
-              <div class="bg-gradient-to-br from-orange-500 to-red-500 p-8 text-center text-white">
-                <div class="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
-                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
-                </div>
-                <h3 class="text-2xl md:text-3xl font-bold">للأهل والمعلمين</h3>
+    <!-- Tools Section -->
+    <section class="py-24 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">أدوات تفاعلية تحوّل القراءة إلى تجربة حياتية</h2>
+          <p class="text-xl text-gray-600 max-w-4xl mx-auto">لا تقتصر مجموعتنا القصصية على السرد فقط، بل تتحوّل كل قصة إلى تجربة متكاملة</p>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-12">
+          <!-- For Parents/Teachers -->
+          <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover-lift">
+            <div class="bg-gradient-to-r from-orange-500 to-red-500 p-8 text-center text-white">
+              <div class="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
               </div>
-              <div class="p-8 md:p-10 space-y-8">
-                <div class="flex flex-row-reverse items-start gap-5 text-right">
-                  <div class="flex-1 space-y-3">
-                    <h4 class="text-lg md:text-xl font-bold text-azure-11">دليل الحوار الأسري</h4>
-                    <p class="text-azure-27 leading-relaxed text-base">أسئلة وموضوعات مصممة لتعزيز الحوار الأسري وإجراء مناقشات هادفة حول القيم.</p>
-                  </div>
-                  <div class="w-12 h-12 bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg class="w-6 h-6 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 00-1-1h-1a1 1 0 01-1-1V7a1 1 0 01-1-1h3a1 1 0 001-1V4z"/></svg>
-                  </div>
+              <h3 class="text-3xl font-bold">للأهل والمعلمين</h3>
+            </div>
+            <div class="p-10 space-y-8">
+              <div class="flex gap-5 text-right flex-row-reverse">
+                <div class="flex-1">
+                  <h4 class="text-xl font-bold text-gray-900 mb-3">دليل الحوار الأسري</h4>
+                  <p class="text-gray-600 leading-relaxed">أسئلة وموضوعات مصممة لتعزيز الحوار الأسري وإجراء مناقشات هادفة حول القيم والمفاهيم المطروحة في القصة.</p>
                 </div>
-                <div class="flex flex-row-reverse items-start gap-5 text-right">
-                  <div class="flex-1 space-y-3">
-                    <h4 class="text-lg md:text-xl font-bold text-azure-11">ألعاب تربوية تفاعلية</h4>
-                    <p class="text-azure-27 leading-relaxed text-base">ألعاب ومواد تربوية مصممة لتعزيز المفاهيم وخلق تجارب تعليمية ممتعة.</p>
-                  </div>
-                  <div class="w-12 h-12 bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-2xl flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                  </div>
+                <div class="w-14 h-14 bg-pink-100 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <svg class="w-7 h-7 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+                </div>
+              </div>
+              <div class="flex gap-5 text-right flex-row-reverse">
+                <div class="flex-1">
+                  <h4 class="text-xl font-bold text-gray-900 mb-3">ألعاب تربوية تفاعلية</h4>
+                  <p class="text-gray-600 leading-relaxed">ألعاب ومواد تربوية يمكن اقتناؤها منفصلة أو ضمن حزمة القصة، مصممة لتعزيز المفاهيم وخلق تجارب تعليمية ممتعة.</p>
+                </div>
+                <div class="w-14 h-14 bg-yellow-100 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <svg class="w-7 h-7 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 </div>
               </div>
             </div>
-            <!-- Tools 2 -->
-            <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover-lift transition-smooth border border-gray-100">
-              <div class="bg-gradient-interactive p-8 text-center text-white">
-                <div class="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
-                  <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="text-2xl md:text-3xl font-bold">للأطفال والمراهقين</h3>
+          </div>
+          <!-- For Children -->
+          <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover-lift">
+            <div class="bg-gradient-to-r from-indigo-600 to-blue-600 p-8 text-center text-white">
+              <div class="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
               </div>
-              <div class="p-8 md:p-10 space-y-8">
-                <div class="flex flex-row-reverse items-start gap-5 text-right">
-                  <div class="flex-1 space-y-3">
-                    <h4 class="text-lg md:text-xl font-bold text-azure-11">أدوات عملية</h4>
-                    <p class="text-azure-27 leading-relaxed text-base">أدوات عملية قابلة للتحميل، تساعد الطفل على تطبيق القيمة أو المهارة في حياته اليومية</p>
-                  </div>
-                  <div class="w-12 h-12 bg-gradient-to-br from-green-100 to-green-200 rounded-2xl flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9l2 2 4-4"/></svg>
-                  </div>
+              <h3 class="text-3xl font-bold">للأطفال والمراهقين</h3>
+            </div>
+            <div class="p-10 space-y-8">
+              <div class="flex gap-5 text-right flex-row-reverse">
+                <div class="flex-1">
+                  <h4 class="text-xl font-bold text-gray-900 mb-3">أدوات عملية</h4>
+                  <p class="text-gray-600 leading-relaxed">أدوات عملية قابلة للتحميل، تساعد الطفل على تطبيق القيمة أو المهارة المطروحة داخل القصة في حياته اليومية.</p>
                 </div>
-                <div class="flex flex-row-reverse items-start gap-5 text-right">
-                  <div class="flex-1 space-y-3">
-                    <h4 class="text-lg md:text-xl font-bold text-azure-11">دفاتر الأنشطة الإبداعية</h4>
-                    <p class="text-azure-27 leading-relaxed text-base">أنشطة وتماريين متنوعة تساعد الطفل على التعبير عن أفكاره والتفكير الإبداعي.</p>
-                  </div>
-                  <div class="w-12 h-12 bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9l2 2 4-4"/></svg>
-                  </div>
+                <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+              </div>
+              <div class="flex gap-5 text-right flex-row-reverse">
+                <div class="flex-1">
+                  <h4 class="text-xl font-bold text-gray-900 mb-3">دفاتر الأنشطة الإبداعية</h4>
+                  <p class="text-gray-600 leading-relaxed">أنشطة وتمارين متنوعة تساعد الطفل على التعبير عن أفكاره وتطبيق ما تعلمه من خلال الرسم والكتابة والتفكير الإبداعي.</p>
+                </div>
+                <div class="w-14 h-14 bg-purple-100 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <svg class="w-7 h-7 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Testimonials Section -->
-      <section class="py-20 md:py-24 bg-gradient-section">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center max-w-4xl mx-auto mb-16">
-            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-azure-11 mb-6 leading-tight">ماذا يقول القراء</h2>
-            <p class="text-lg md:text-xl text-azure-27 leading-relaxed">آراء الأطفال والأهل والمعلمين حول تجربتهم مع قصصنا</p>
+    <!-- Testimonials -->
+    <section class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">ماذا يقول القراء</h2>
+          <p class="text-xl text-gray-600">آراء الأطفال والأهل والمعلمين حول تجربتهم مع قصصنا</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-gray-50 rounded-2xl p-8 hover-lift">
+            <div class="flex items-center gap-4 mb-6 flex-row-reverse">
+              <img src="https://api.builder.io/api/v1/image/assets/TEMP/5674bea6c92367acb78743c8634a3b523e7a80b0?width=96" alt="خالد إبراهيم" class="w-16 h-16 rounded-full" />
+              <div class="text-right">
+                <h4 class="font-bold text-gray-900">خالد إبراهيم</h4>
+                <p class="text-sm text-gray-600">معلم لغة عربية</p>
+              </div>
+            </div>
+            <div class="flex gap-1 mb-4 justify-end">
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <p class="text-gray-700 leading-relaxed text-right">"استخدمت هذه القصص في الفصل الدراسي وكانت النتائج مذهلة. الطلاب أصبحوا أكثر تفاعلًا وبدأوا يطرحون أسئلة عميقة ويفكرون بشكل نقدي."</p>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            <div class="bg-white rounded-2xl shadow-md hover:shadow-xl p-8 transition-smooth hover-lift border border-gray-100">
-              <div class="text-right space-y-5">
-                <div class="flex flex-row-reverse items-start gap-4 text-right">
-                  <div class="text-right flex-1">
-                    <h4 class="font-bold text-azure-11 text-lg">خالد إبراهيم</h4>
-                    <p class="text-sm text-gray-500 mt-1">معلم لغة عربية</p>
-                  </div>
-                  <img src="https://api.builder.io/api/v1/image/assets/TEMP/5674bea6c92367acb78743c8634a3b523e7a80b0?width=96" alt="خالد إبراهيم" class="w-14 h-14 rounded-full object-cover ring-2 ring-indigo-100" />
-                </div>
-                <p class="text-azure-27 leading-relaxed text-base">استخدمت هذه القصص في الفصل الدراسي وكانت النتائج مذهلة. الطلاب أصبحوا أكثر تفاعلاً وبدأوا يطرحون أسئلة عميقة.</p>
-                <div class="flex gap-1">
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                </div>
+          <div class="bg-gray-50 rounded-2xl p-8 hover-lift">
+            <div class="flex items-center gap-4 mb-6 flex-row-reverse">
+              <img src="https://api.builder.io/api/v1/image/assets/TEMP/8c49b7e3f252804cbb12dd806d4016eeeb7f3076?width=96" alt="سارة علي" class="w-16 h-16 rounded-full" />
+              <div class="text-right">
+                <h4 class="font-bold text-gray-900">سارة علي</h4>
+                <p class="text-sm text-gray-600">أم لطفلين</p>
               </div>
             </div>
-            <div class="bg-white rounded-2xl shadow-md hover:shadow-xl p-8 transition-smooth hover-lift border border-gray-100">
-              <div class="text-right space-y-5">
-                <div class="flex flex-row-reverse items-start gap-4 text-right">
-                  <div class="text-right flex-1">
-                    <h4 class="font-bold text-azure-11 text-lg">سارة علي</h4>
-                    <p class="text-sm text-gray-500 mt-1">أم لطفلين</p>
-                  </div>
-                  <img src="https://api.builder.io/api/v1/image/assets/TEMP/8c49b7e3f252804cbb12dd806d4016eeeb7f3076?width=96" alt="سارة علي" class="w-14 h-14 rounded-full object-cover ring-2 ring-indigo-100" />
-                </div>
-                <p class="text-azure-27 leading-relaxed text-base">الأدوات التفاعلية المرفقة مع القصص ساعدتني على إجراء حوارات عميقة مع أطفالي. أصبحنا نقضي وقتاً ممتعاً معاً.</p>
-                <div class="flex gap-1">
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                </div>
+            <div class="flex gap-1 mb-4 justify-end">
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <p class="text-gray-700 leading-relaxed text-right">"الأدوات التفاعلية المرفقة مع القصص ساعدتني على إجراء حوارات عميقة مع أطفالي. أصبحنا نقضي وقتًا ممتعًا معًا في القراءة والمناقشة."</p>
+          </div>
+          <div class="bg-gray-50 rounded-2xl p-8 hover-lift">
+            <div class="flex items-center gap-4 mb-6 flex-row-reverse">
+              <img src="https://api.builder.io/api/v1/image/assets/TEMP/352abd7a4c07df5abce83947514d456ddd63c4f2?width=96" alt="أحمد محمد" class="w-16 h-16 rounded-full" />
+              <div class="text-right">
+                <h4 class="font-bold text-gray-900">أحمد محمد</h4>
+                <p class="text-sm text-gray-600">طفل</p>
               </div>
             </div>
-            <div class="bg-white rounded-2xl shadow-md hover:shadow-xl p-8 transition-smooth hover-lift border border-gray-100">
-              <div class="text-right space-y-5">
-                <div class="flex flex-row-reverse items-start gap-4 text-right">
-                  <div class="text-right flex-1">
-                    <h4 class="font-bold text-azure-11 text-lg">أحمد محمد</h4>
-                    <p class="text-sm text-gray-500 mt-1">طفل</p>
-                  </div>
-                  <img src="https://api.builder.io/api/v1/image/assets/TEMP/352abd7a4c07df5abce83947514d456ddd63c4f2?width=96" alt="أحمد محمد" class="w-14 h-14 rounded-full object-cover ring-2 ring-indigo-100" />
-                </div>
-                <p class="text-azure-27 leading-relaxed text-base">أحببت قصة يونس كثيراً، علمتني كيف أحقق التوازن في حياتي. أصبحت أطرح أسئلة أكثر عمقاً عن الحياة.</p>
-                <div class="flex gap-1">
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                  <svg class="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                </div>
-              </div>
+            <div class="flex gap-1 mb-4 justify-end">
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.81 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
             </div>
+            <p class="text-gray-700 leading-relaxed text-right">"أحببت قصة يونس كثيرًا، علمتني كيف أحقق التوازن في حياتي وأن أهتم بعقلي وجسدي وروحي. أصبحت أطرح أسئلة أكثر عمقًا عن الحياة."</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- FAQ Section -->
-      <section id="faq" class="py-20 md:py-24 bg-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-azure-11 mb-6 leading-tight">الأسئلة الشائعة</h2>
-            <p class="text-lg md:text-xl text-azure-27 leading-relaxed">إليك إجابات على الأسئلة الأكثر شيوعاً حول المجموعة القصصية</p>
+    <!-- FAQ -->
+    <section class="py-24 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">الأسئلة الشائعة</h2>
+          <p class="text-xl text-gray-600">إليك إجابات على الأسئلة الأكثر شيوعًا حول المجموعة القصصية</p>
+        </div>
+        <div class="space-y-4">
+          <div class="bg-white rounded-xl shadow-sm">
+            <button onclick="toggleFaq(this)" class="w-full px-8 py-6 text-right flex items-center justify-between hover:bg-gray-50">
+              <h3 class="text-lg font-bold text-gray-900">ما هي الفئة العمرية المستهدفة؟</h3>
+              <svg class="w-6 h-6 text-gray-600 faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-content px-8">
+              <p class="text-gray-600 leading-relaxed pb-6">القصص مخصصة للأطفال من عمر 4 سنوات وحتى 15 سنة، مع مستوى التعقيد المناسب لكل فئة عمرية في القراءة والمفاهيم المطروحة.</p>
+            </div>
           </div>
-          <div class="space-y-4">
-            <div class="border border-gray-200 rounded-2xl overflow-hidden hover:border-indigo-200 transition-smooth">
-              <button class="w-full px-6 md:px-8 py-5 md:py-6 text-right bg-white hover:bg-indigo-50/50 flex items-center justify-between transition-smooth faq-toggle">
-                <h3 class="text-lg md:text-xl font-bold text-azure-11 pr-4">ما هي الفئة العمرية المستهدفة؟</h3>
-                <svg class="w-6 h-6 text-indigo-600 faq-icon flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
-              </button>
-              <div class="faq-content bg-indigo-50/30">
-                <p class="text-azure-27 leading-relaxed text-base px-6 md:px-8">القصص مصممة للأطفال من عمر 8-15 سنة، وهي مصممة لتناسب مستوى نضجهم الفكري واهتماماتهم في هذه المرحلة العمرية.</p>
-              </div>
+          <div class="bg-white rounded-xl shadow-sm">
+            <button onclick="toggleFaq(this)" class="w-full px-8 py-6 text-right flex items-center justify-between hover:bg-gray-50">
+              <h3 class="text-lg font-bold text-gray-900">هل القصص مجانية أم مدفوعة؟</h3>
+              <svg class="w-6 h-6 text-gray-600 faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-content px-8">
+              <p class="text-gray-600 leading-relaxed pb-6">نقدم بعض القصص مجانًا كعينات، بينما القصص الكاملة والأدوات التفاعلية متوفرة للشراء من خلال منصات مختلفة مثل أمازون.</p>
             </div>
-            <div class="border border-gray-200 rounded-2xl overflow-hidden hover:border-indigo-200 transition-smooth">
-              <button class="w-full px-6 md:px-8 py-5 md:py-6 text-right bg-white hover:bg-indigo-50/50 flex items-center justify-between transition-smooth faq-toggle">
-                <h3 class="text-lg md:text-xl font-bold text-azure-11 pr-4">هل القصص مجانية أم مدفوعة؟</h3>
-                <svg class="w-6 h-6 text-indigo-600 faq-icon flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
-              </button>
-              <div class="faq-content bg-indigo-50/30">
-                <p class="text-azure-27 leading-relaxed text-base px-6 md:px-8">نقدم مزيجًا من القصص المجانية والمدفوعة. يمكنك قراءة بعض القصص مجانًا على موقعنا، بينما تتوفر القصص الكاملة للشراء عبر أمازون.</p>
-              </div>
+          </div>
+          <div class="bg-white rounded-xl shadow-sm">
+            <button onclick="toggleFaq(this)" class="w-full px-8 py-6 text-right flex items-center justify-between hover:bg-gray-50">
+              <h3 class="text-lg font-bold text-gray-900">كيف يمكنني الحصول على الأدوات التفاعلية؟</h3>
+              <svg class="w-6 h-6 text-gray-600 faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-content px-8">
+              <p class="text-gray-600 leading-relaxed pb-6">الأدوات التفاعلية تأتي مع كل قصة مشتراة، وبعضها يمكن تحميله مباشرة من الموقع بعد الشراء، بينما البعض الآخر يُرسل في عبوة القصة.</p>
             </div>
-            <div class="border border-gray-200 rounded-2xl overflow-hidden hover:border-indigo-200 transition-smooth">
-              <button class="w-full px-6 md:px-8 py-5 md:py-6 text-right bg-white hover:bg-indigo-50/50 flex items-center justify-between transition-smooth faq-toggle">
-                <h3 class="text-lg md:text-xl font-bold text-azure-11 pr-4">كيف يمكنني الحصول على الأدوات التفاعلية؟</h3>
-                <svg class="w-6 h-6 text-indigo-600 faq-icon flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
-              </button>
-              <div class="faq-content bg-indigo-50/30">
-                <p class="text-azure-27 leading-relaxed text-base px-6 md:px-8">الأدوات التفاعلية متاحة للتحميل على موقعنا. بعضها مجاني ويمكن الوصول إليه مباشرة، والبعض الآخر متاح للمشتركين.</p>
-              </div>
-            </div>
-            <div class="border border-gray-200 rounded-2xl overflow-hidden hover:border-indigo-200 transition-smooth">
-              <button class="w-full px-6 md:px-8 py-5 md:py-6 text-right bg-white hover:bg-indigo-50/50 flex items-center justify-between transition-smooth faq-toggle">
-                <h3 class="text-lg md:text-xl font-bold text-azure-11 pr-4">هل يمكن استخدام القصص في المدارس؟</h3>
-                <svg class="w-6 h-6 text-indigo-600 faq-icon flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
-              </button>
-              <div class="faq-content bg-indigo-50/30">
-                <p class="text-azure-27 leading-relaxed text-base px-6 md:px-8">نعم، نشجع المعلمين على استخدام قصصنا في الفصول الدراسية. نوفر موارد خاصة للمعلمين تتضمن خطط دروس وأنشطة تفاعلية.</p>
-              </div>
+          </div>
+          <div class="bg-white rounded-xl shadow-sm">
+            <button onclick="toggleFaq(this)" class="w-full px-8 py-6 text-right flex items-center justify-between hover:bg-gray-50">
+              <h3 class="text-lg font-bold text-gray-900">هل يمكن استخدام القصص في المدارس؟</h3>
+              <svg class="w-6 h-6 text-gray-600 faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-content px-8">
+              <p class="text-gray-600 leading-relaxed pb-6">نعم بالتأكيد! نوفر للمدارس والمؤسسات التعليمية حزماً خاصة وأسعاراً مخفضة. تواصل معنا لمعرفة المزيد عن عروض المدارس.</p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Newsletter Section -->
-      <section class="py-20 md:py-24 bg-gradient-to-br from-indigo-600 to-blue-600">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 class="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">انضم إلى قائمتنا البريدية</h2>
-          <p class="text-white/90 text-lg md:text-xl mb-10 leading-relaxed">احصل على آخر الأخبار والتحديثات حول القصص الجديدة والموارد التفاعلية</p>
-          <form class="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
-            <input type="email" placeholder="أدخل بريدك الإلكتروني" class="flex-1 px-5 py-4 rounded-xl text-right border-2 border-transparent focus:outline-none focus:border-white/30 focus:ring-2 focus:ring-white/20 transition-smooth text-base" />
-            <button type="submit" class="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold px-8 py-4 rounded-xl transition-smooth hover:shadow-lg hover-lift text-base">اشترك الآن</button>
-          </form>
-          <p class="text-white/80 text-sm mt-6 leading-relaxed">لن نشارك بريدك الإلكتروني مع أي جهة أخرى ويمكنك إلغاء الاشتراك في أي وقت.</p>
-        </div>
-      </section>
-    </main>
+    <!-- Newsletter -->
+    <section class="py-20 bg-indigo-600">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">انضم إلى قائمتنا البريدية</h2>
+        <p class="text-xl text-white/90 mb-8">احصل على آخر الأخبار والتحديثات حول القصص الجديدة والموارد التفاعلية</p>
+        <form class="flex flex-col sm:flex-row gap-4 max-w-2xl mx-auto">
+          <input type="email" placeholder="أدخل بريدك الإلكتروني" class="flex-1 px-6 py-4 rounded-xl text-right focus:outline-none focus:ring-2 focus:ring-white" required />
+          <button type="submit" class="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl">اشترك الآن</button>
+        </form>
+        <p class="text-white/80 text-sm mt-6">لن نشارك بريدك الإلكتروني مع أي جهة أخرى ويمكنك إلغاء الاشتراك في أي وقت.</p>
+      </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+    <footer class="bg-gray-900 text-white py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-12 mb-12">
           <div class="text-right">
-            <h3 class="font-bold text-xl mb-5">أثر الضوء</h3>
-            <p class="text-gray-400 leading-relaxed mb-6">قصص تنبض بالحياة، تجمع بين المتعة والتعلم والتطبيق العملي</p>
-            <div class="flex justify-end gap-3">
-              <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-indigo-600 rounded-full flex items-center justify-center transition-smooth hover-lift text-xl">📷</a>
-              <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-indigo-600 rounded-full flex items-center justify-center transition-smooth hover-lift text-xl">🎵</a>
-              <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-indigo-600 rounded-full flex items-center justify-center transition-smooth hover-lift text-xl">👍</a>
-            </div>
+            <h3 class="font-bold text-xl mb-4">أثر الضوء</h3>
+            <p class="text-gray-400 leading-relaxed">قصص تنبض بالحياة، تجمع بين المتعة والتعلم والتطبيق العملي للأطفال والمربين</p>
           </div>
           <div class="text-right">
-            <h4 class="font-bold text-lg mb-5">روابط سريعة</h4>
+            <h4 class="font-bold text-lg mb-4">روابط سريعة</h4>
             <ul class="space-y-3 text-gray-400">
-              <li><a href="/" class="hover:text-white hover:pr-2 transition-smooth inline-block">الرئيسية</a></li>
-              <li><a href="stories/index.html" class="hover:text-white hover:pr-2 transition-smooth inline-block">القصص</a></li>
-              <li><a href="about.html" class="hover:text-white hover:pr-2 transition-smooth inline-block">عن الكاتب</a></li>
+              <li><a href="/" class="hover:text-white">الرئيسية</a></li>
+              <li><a href="stories/index.html" class="hover:text-white">القصص</a></li>
+              <li><a href="about.html" class="hover:text-white">من نحن</a></li>
+              <li><a href="contact.html" class="hover:text-white">تواصل معنا</a></li>
             </ul>
           </div>
           <div class="text-right">
-            <h4 class="font-bold text-lg mb-5">تواصل معنا</h4>
+            <h4 class="font-bold text-lg mb-4">تواصل معنا</h4>
             <ul class="space-y-3 text-gray-400">
-              <li><a href="mailto:info@atharaldaw.com" class="hover:text-white hover:pr-2 transition-smooth inline-block">info@atharaldaw.com</a></li>
-              <li><a href="tel:+21655505919" class="hover:text-white hover:pr-2 transition-smooth inline-block">+216 55 505 919</a></li>
-              <li><a href="#" class="hover:text-white hover:pr-2 transition-smooth inline-block">WhatsApp</a></li>
+              <li><a href="mailto:info@atharaldaw.com" class="hover:text-white">info@atharaldaw.com</a></li>
+              <li><a href="tel:+21655505919" class="hover:text-white">+216 55 505 919</a></li>
             </ul>
           </div>
           <div class="text-right">
-            <h4 class="font-bold text-lg mb-5">متوفر على</h4>
+            <h4 class="font-bold text-lg mb-4">متوفر على</h4>
             <ul class="space-y-3 text-gray-400">
-              <li><a href="#" class="hover:text-white hover:pr-2 transition-smooth inline-block">Amazon</a></li>
-              <li><a href="#" class="hover:text-white hover:pr-2 transition-smooth inline-block">Spotify</a></li>
+              <li><a href="https://amzn.eu/d/dT6oHPx" target="_blank" class="hover:text-white flex items-center justify-end gap-2"><span>Amazon</span><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg></a></li>
+              <li><a href="#" class="hover:text-white flex items-center justify-end gap-2"><span>Spotify</span><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg></a></li>
             </ul>
           </div>
         </div>
-        <div class="border-t border-gray-800 pt-10">
-          <p class="text-center text-gray-400 text-sm">© 2025 أثر الضوء. جميع الحقوق محفوظة.</p>
+        <div class="border-t border-gray-800 pt-8 text-center">
+          <p class="text-gray-400">© 2025 أثر الضوء - جميع الحقوق محفوظة</p>
         </div>
       </div>
     </footer>
 
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const faqToggles = document.querySelectorAll('.faq-toggle');
-        
-        faqToggles.forEach(toggle => {
-          toggle.addEventListener('click', function() {
-            const content = this.nextElementSibling;
-            const icon = this.querySelector('.faq-icon');
-            
-            // Close all other FAQs
-            document.querySelectorAll('.faq-content').forEach(item => {
-              if (item !== content) {
-                item.classList.remove('active');
-              }
-            });
-            document.querySelectorAll('.faq-icon').forEach(item => {
-              if (item !== icon) {
-                item.classList.remove('active');
-              }
-            });
-            
-            // Toggle current FAQ
-            content.classList.toggle('active');
-            icon.classList.toggle('active');
-          });
-        });
-      });
-    </script>
-    <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ما هي الفئة العمرية المستهدفة؟","acceptedAnswer":{"@type":"Answer","text":"القصص مصممة للأطفال من عمر 8-15 سنة، وهي مصممة لتناسب مستوى نضجهم الفكري واهتماماتهم في هذه المرحلة العمرية."}},{"@type":"Question","name":"هل القصص مجانية أم مدفوعة؟","acceptedAnswer":{"@type":"Answer","text":"نقدم مزيجًا من القصص المجانية والمدفوعة. يمكنك قراءة بعض القصص مجانًا على موقعنا، بينما تتوفر القصص الكاملة للشراء عبر أمازون."}},{"@type":"Question","name":"كيف يمكنني الحصول على الأدوات التفاعلية؟","acceptedAnswer":{"@type":"Answer","text":"الأدوات التفاعلية متاحة للتحميل على موقعنا. بعضها مجاني ويمكن الوصول إليه مباشرة، والبعض الآخر متاح للمشتركين."}},{"@type":"Question","name":"هل يمكن استخدام القصص في المدارس؟","acceptedAnswer":{"@type":"Answer","text":"نعم، نشجع المعلمين على استخدام قصصنا في الفصول الدراسية. نوفر موارد خاصة للمعلمين تتضمن خطط دروس وأنشطة تفاعلية."}}]}
+      function toggleFaq(button) {
+        const content = button.nextElementSibling;
+        const icon = button.querySelector('.faq-icon');
+        content.classList.toggle('active');
+        icon.classList.toggle('active');
+      }
     </script>
   </body>
 </html>
